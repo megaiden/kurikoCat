@@ -1,0 +1,5359 @@
+fileFormatVersion: 2
+guid: cee0c4b3c0bf7654aafbf5e122c4b61a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Download59578_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2817
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a3f71e3784c2d41b1a36c61f3664b7
+      internalID: 618930342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2817
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d3bf468a297a34283ec59e17e471e4
+      internalID: -1423920054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2817
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdc137e47f1485438187f384617d647
+      internalID: -949033510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2817
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcd43892ffd9614a9188497f3000f6c
+      internalID: -970859290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2817
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1442023c42ba124489c80d69f210533c
+      internalID: 2075408582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2817
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cd45977af595146b1aebfb66db47b5
+      internalID: 467299390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2817
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a35f56dbc9519244994dd069453cae1
+      internalID: 496269686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2852
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6988afb976fbb714c8535f45979dcfa0
+      internalID: -437088404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_8
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2852
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d880fa9ba247e4686554067cb2c1a3
+      internalID: -90711015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_9
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 2843
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306cefb6fdd13554aafa7f8dd684415c
+      internalID: 1707243111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2753
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fb4e304940a014292149f6fbbad0e1
+      internalID: 442870019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_11
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2753
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7864386942420478b80726c04bf15b
+      internalID: -940184425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_12
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2753
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b80f362a8cae444b08f3757cf58a2f
+      internalID: 1132078898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_13
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2753
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388ccedf2b3791c4091b8b908a4b696d
+      internalID: -262925659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_14
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2753
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803f50fcb33c36545a1eaf99c80cc950
+      internalID: 1674422374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_15
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2753
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c093043a0bd5108479871d29f7d414c5
+      internalID: -1537490352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_16
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2753
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133b8c2a5190b4147b86d13ae97470cf
+      internalID: -1155388051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_17
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2689
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b81b7ad41e6e34393b0342b29c304c
+      internalID: 1891296118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2689
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f41f7d4e7abb94cb22bbb6ba6ea0f4
+      internalID: -1812377449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2689
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922ef0326e7ab7046829d95894b26d52
+      internalID: -1813852844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2689
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529be25ee2cacaa45989df4004b80526
+      internalID: -445708962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_21
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2689
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0797db4e76f90541a6d36b383a36083
+      internalID: 1515550513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_22
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2689
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2c45a7115de5e4bb03825832b4d9a8
+      internalID: 279057306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_23
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2689
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35da52c8fd803344e95d653bee1b4616
+      internalID: 1731427120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2625
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6351d14ac00086d4dab28bd950fbb171
+      internalID: 224171774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_25
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2625
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fd2b5948f7dba488e8ae467e3a89bf
+      internalID: -1548562081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2625
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d2fc02ba3b3f24fab413eb1f015002
+      internalID: 1054182778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_27
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2625
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913739fce6df676488f814420c53908d
+      internalID: 1117807931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_28
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2625
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87591dfdcf0b12b43b6a8ad829e28736
+      internalID: 1111303401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_29
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2625
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5cd31a4115ed04b81b5420f715dc7e
+      internalID: 279051137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_30
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2625
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289ce1d3332db934a9d9f61db7e4ec2d
+      internalID: -269123912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_31
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2561
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86b5d34c779d3d4abc24752bfd3fdfd
+      internalID: -1891392364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_32
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2559
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630d07f437e37114aa40be593422fc6e
+      internalID: 346133412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_33
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2559
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dea90c2467b644b8d19d815c417cbf
+      internalID: -2090761126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_34
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2559
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c97b106c78499c40bf11e93406f2d03
+      internalID: -1400168153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_35
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2559
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917f6e913357ecf4cbeca3adf2b62a50
+      internalID: 1326691573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_36
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2559
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e5f87d9c2428142a686b2ba61d4213
+      internalID: 207187571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_37
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2559
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7550557d1d945af43a2763548cd1ca26
+      internalID: -374715563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_38
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2559
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5518247f180c3194aa037b48620cc196
+      internalID: -1434031020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_39
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2498
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3e8a2a82776ca47a11da99d6706c33
+      internalID: 740488644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_40
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2498
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc58c332a3d7b745b1193d74d858478
+      internalID: 1187779616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2498
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bb263b74479294ba0300797986e2e8
+      internalID: -1924259939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_42
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2498
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ad15add4364db4ebfe6cf900a839e7
+      internalID: -1332968808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_43
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2498
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b992d5e1b160534408c8ddb87f0365ae
+      internalID: -2046241133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_44
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2498
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2cf2cdbe893504dadef5acaba95625
+      internalID: -1288340038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_45
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2498
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d01fd81215db94c93cd533cd651571
+      internalID: -1759688961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_46
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2498
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b82dce507837b84985afd96aef4ec91
+      internalID: -1885087724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_47
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2433
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93248db53147a443a3a2f352a353e05
+      internalID: 437392154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_48
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2434
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca465a47d958a4948b393603e7868399
+      internalID: 1916935279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_49
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2434
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c7f0001a6382447ac973ff2929415d
+      internalID: 1910105082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_50
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2434
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1812245f9ffe7214f9e2193600c4ef23
+      internalID: 672117567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_51
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2434
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aabd2f7127eef84596b10ab7d4336e0
+      internalID: 234327970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_52
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2434
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc52aaa958782e1429339a24566453b3
+      internalID: -820149645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_53
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2434
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2652d8fb5d4cfed4284c44f6401c098b
+      internalID: 338241385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_54
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2434
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75034016f9b1c3e4dbcaa0bc016b7d7c
+      internalID: 1044933653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_55
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2370
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831ff3145067397499d482e2f4091c82
+      internalID: -10865681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_56
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2370
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77824d35f020ce94ab08239f96d81690
+      internalID: 2082049759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_57
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2370
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f317a5838724df341bef0e515d6ab066
+      internalID: 1611521459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_58
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2370
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26364585018408346a79382153731721
+      internalID: -253260991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_59
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2370
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cddb27e3b933584391f56291c49cdd7
+      internalID: 1974636585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_60
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2370
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951f3a459690c84479faf7bbbdaaa495
+      internalID: 713645236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_61
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2370
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcff1324f49c195459e41fdac42f7371
+      internalID: -1942453383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_62
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 2370
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28104be3237451047a0a8353b4ca78a4
+      internalID: 1126840744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_63
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2305
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d231033e57cb423489e1b988689e7323
+      internalID: -1053798014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_64
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2306
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b71f0e51b341c41ab587b22d6c0c71
+      internalID: -1299369543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_65
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2305
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098e0ed44ea77414db0ec65fece22a02
+      internalID: -974425205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_66
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 2305
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40719428411eeda4f8463dd7011613fb
+      internalID: -229652237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_67
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 2305
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e1eae86e379c444af9d1ed667a74bb
+      internalID: 1954873607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_68
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 2306
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d129a9d22db0b409401786df3bba3f
+      internalID: 271310521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_69
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2305
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db44075d4880c24b83c69c995d74249
+      internalID: 351603477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_70
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 2305
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014aabcba1059a141881d5354bae6bf9
+      internalID: -1518236205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_71
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 2305
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244b5a437fa748a4ebc1e018d0325c6f
+      internalID: 1777548294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2242
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a688ae2e419f35d41b498cc841de755f
+      internalID: -1920598889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_73
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2242
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177b8e1c90520f94e94d1cfa4b8de7b5
+      internalID: -1587004346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_74
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2242
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a235a7229ead0e74d9e62bcd6ccbb56b
+      internalID: 824438252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_75
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2242
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1205454ab4210184daa479132ec94cfe
+      internalID: -365849403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_76
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2242
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9328d2ce03e9a4995093e13473617f
+      internalID: -889237853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_77
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2242
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f971a1be3b84e5469e865143ff39579
+      internalID: -153932601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_78
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2242
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945356e0539a20d4ba127b2d97a6dcdb
+      internalID: -266324650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_79
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 2242
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f96e48e7e60704e898db2cdcc1542c
+      internalID: -980698906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_80
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 2242
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c959a7f9ee02dba499e6cf01c1ebb55b
+      internalID: 656718907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_81
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2177
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2a109a3d455984d938b32898d1a91f
+      internalID: 1011154996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_82
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 2177
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3affd517e122eab46a076d1a24997048
+      internalID: 632517125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_83
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2175
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a82f224384ce44491949b809ade740
+      internalID: 1945926302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_84
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2175
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6745ec51d6829ac40b382cb28d874c44
+      internalID: 1149721795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_85
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2175
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561c3cc518428ba46a7bc15ddaa6f4a6
+      internalID: 1763129571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_86
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2177
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4602a6f8e51a5a149b1eb1f8213bb36f
+      internalID: -953144147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_87
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 2175
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950583393a86b8649af639f8dc7a89a7
+      internalID: 1370074966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_88
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 2175
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204fb31ec17830845a0c759aa9ee2bb9
+      internalID: 271282165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_89
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2175
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5799d12a920d40a41a20f8f45a496edd
+      internalID: 1146047520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_90
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2114
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1e794492ed3f347a82c549c637d57f
+      internalID: -388354870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_91
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2114
+        width: 59
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5587523, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61148f64f1e18ba48929675862b25968
+      internalID: -1824360521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_92
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2114
+        width: 59
+        height: 43
+      alignment: 9
+      pivot: {x: 0.57833576, y: 0.5053711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29735f080a100e443815542555e52f72
+      internalID: -619994856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_93
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2114
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1117d507c9accf34ab1c70df9f6df756
+      internalID: 1852765938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_94
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2114
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fac58162f2e27b40b71af4ee84ca59a
+      internalID: -1118942447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_95
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2114
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54386e8c1fe34b24390a3d9bc8b87c39
+      internalID: 1074382667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_96
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 2113
+        width: 59
+        height: 43
+      alignment: 9
+      pivot: {x: 0.51958346, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c0d420360e4a046b1b3ec8ac1ca6b0
+      internalID: 1910084456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_97
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2114
+        width: 59
+        height: 43
+      alignment: 9
+      pivot: {x: 0.59008634, y: 0.51074785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64186ff8649dc854da8b602c030b6ff2
+      internalID: 872174705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_98
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 2114
+        width: 59
+        height: 43
+      alignment: 9
+      pivot: {x: 0.60575324, y: 0.5053711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a24e91633f43042ab9114dd8a381c4
+      internalID: 784806142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_99
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2049
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b215b0f08272af94983fcc7a7cfa5941
+      internalID: 538097773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_100
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2048
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a2b2f2f750c0345967e996dceeb66e
+      internalID: 1196159763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_101
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2049
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf805645192e534097ebadd791d6095
+      internalID: -4409638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_102
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2049
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121fdb40f12515f4aa17d36b567d1c9d
+      internalID: 1788180677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_103
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2049
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a041a88e99bc898438faeb7c2a02422a
+      internalID: -1711610866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_104
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2049
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f0be2704551464eb5928aa6ea2e877
+      internalID: 2138640570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_105
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1986
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825a981aa1143254685e1c81d1c8593e
+      internalID: -53913759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_106
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1986
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3d71121fe0d87439e769706dbb9282
+      internalID: 154868759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_107
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1986
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84155e309ed89f458e6abec16409fac
+      internalID: -535780082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_108
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1986
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88080875afd64a14fbf6b426e7916ba3
+      internalID: 855058863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_109
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1986
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b52be6b5d5717468bc1e004414ccdf
+      internalID: -466756679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_110
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1986
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fc86ccc06bcc9488023de1fd58cd47
+      internalID: -1118134882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_111
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1921
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea63308aefbc9e4468470eda208dfd94
+      internalID: 1814709812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_112
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1921
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4941b127dfece4cbd4ebfeae1d7d93
+      internalID: -366239740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_113
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1921
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e294ae16d7d5e84e8f216e76128d8e6
+      internalID: 1340177032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_114
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1921
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c2a4eee70f9da4ba9a2aa184ba61a5
+      internalID: 1463013537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_115
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1921
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295922b009ab8214fb45d3c1a36f590d
+      internalID: 404088339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_116
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1921
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f54212043a8a1447a5f6f4b6304767a
+      internalID: 1475753981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_117
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1858
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c8bab5166f4fe40a81f0f470a421d6
+      internalID: -1950197340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_118
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1856
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906c01d360dbf6847a99e17e08075126
+      internalID: -139407312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_119
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1858
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae583667ef617e42b251c8bf29bc133
+      internalID: 632999456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_120
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1858
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a519e8c96852a81468bb91fa057ccd7f
+      internalID: -1166530614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_121
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1856
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d00c991b9329e848b0c6d982f0fd58f
+      internalID: 228975642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_122
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1858
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc4e3eb6fb88994186da040091e4577
+      internalID: -103289796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_123
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1793
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c7b02925835c945ad6def369f50072
+      internalID: 1446364885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_124
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1792
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446b66c79e8d58942b69063a7a42bc13
+      internalID: -286273944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_125
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1792
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6831e365f84369249b4a30e3aa4dac25
+      internalID: -1752932018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_126
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1792
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b598a8d0881274e8274d85cbd26bf6
+      internalID: 1411501142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_127
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1792
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037ac147eb6afcb4dad11a0caf338782
+      internalID: 39207269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_128
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1792
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc31dfeb700646479173cfede4d46c1
+      internalID: 1439310709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_129
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1792
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38aab33c89f73f84b8588654f14c50be
+      internalID: 449154119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_130
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1792
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933697f7488fca5429249dd18215b665
+      internalID: 522618075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_131
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1792
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81502a658a75a3949b8db64114d75d4d
+      internalID: -1436131308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_132
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1792
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827bc9e600fcefd45bfbc4de99576c59
+      internalID: -1986248160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_133
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1792
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ac758db6ece8b47a53bb4f2d68151d
+      internalID: 116568904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_134
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1792
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fd39a26e22f9c4dae20bd66e58b388
+      internalID: -713987462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_135
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1792
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471ec782e53d5e147a989d6ae8c09201
+      internalID: 247479519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_136
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1730
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b852e29512b645e4ca5e8c9421a433b1
+      internalID: -679501792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_137
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1730
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9d562b887956a4e9911f1c24b5f106
+      internalID: -1799315354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_138
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1730
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc2e9ec353bbf140937a80af7097cba
+      internalID: -2018565155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_139
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1730
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fd6c3effdc2db44a8629a479df4ed6
+      internalID: 1590016141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_140
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1730
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392cd60ecfc752749842db4e52505f6c
+      internalID: 1898185963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_141
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1730
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866d18555727cda4a81f86526ccedd27
+      internalID: 1821243313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_142
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1730
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6745c81f2a491b641b2dffdd0f863545
+      internalID: -1326857719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_143
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1730
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293218a15256e4e4390c01add7827829
+      internalID: 1329045165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_144
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1730
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56582f690084b3d4f80ab07c734cc259
+      internalID: -2131291507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_145
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1730
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5498da04f5c9f4182dab886ad9f207
+      internalID: -307042390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_146
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1730
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1850695572eaa3409da55514bcc7cec
+      internalID: -689711192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_147
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1730
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55efb40eeefeb964597c29ba8b7a5c88
+      internalID: -2029673130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_148
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1730
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d946dd3848291b4088eaa33e00f0f2e
+      internalID: 1169156286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_149
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1665
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4b68b995b82794c8861e186325818b
+      internalID: 1061345395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_150
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1666
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16475806c088e5c4b94f10d05a2c6da2
+      internalID: 1389183963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_151
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1666
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825fbe5773bd8354e8eb85861045c026
+      internalID: 253249944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_152
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1665
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02102833abd19f848934329001480bde
+      internalID: 233599314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_153
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1665
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de08997e6c6d9641997c6d341c4c1bd
+      internalID: -605061372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_154
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1665
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c408f30a52fdc7b4fa4b63ba68bad930
+      internalID: 1943473540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_155
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1665
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cde6ac9057138468cfe9c8d84bb104
+      internalID: 772901648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_156
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1665
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba14a03fd034f34eb0fae3375b965b4
+      internalID: -1519273080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_157
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1665
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086112a004d13a54b89144316c5d88c4
+      internalID: 881756809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_158
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1665
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189e39e400c145d429d50b63f086fdbb
+      internalID: 1660847600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_159
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1665
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec25105c3d4a9934089df4aae486e130
+      internalID: 1978399523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_160
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1665
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09780774e792aae40a96a2824fc4871b
+      internalID: 619291786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_161
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1665
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60392890653f0814db9005b1958dc34d
+      internalID: -1391565032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_162
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1602
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ebd6c0f923c5747937bcff8890a988
+      internalID: 2095771793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_163
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1602
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436ad36c07a5b81439ee438817fa8567
+      internalID: -595214438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_164
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1602
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8514211d3e6164883e06046cd0dbe4
+      internalID: 1179074855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_165
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1602
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9661185a4b78004bbc7a49eb072c393
+      internalID: -764191824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_166
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1602
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5597351533bdb4ca151ed38da0d5bf
+      internalID: -1766541776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_167
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1602
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f08455d6f8dd0d41a256a9f8785a79d
+      internalID: -707050016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_168
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1602
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7540f56a5c2065f4fa08d4da29eb296f
+      internalID: -93836361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_169
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1602
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb689559a4445af4ea1c0f0683112f12
+      internalID: 2086924075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_170
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1602
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfdaa0cabca6cc43978769b77d14f81
+      internalID: 648611822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_171
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1602
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ab3f3f4170df74ba20a2045abcfef5
+      internalID: -1656804845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_172
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1602
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb0c166cc250d84698cf42464867ce8
+      internalID: -1837775032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_173
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1602
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9becb3430f91e8c429e9e73b87414169
+      internalID: -208667681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_174
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1602
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e90cf4f59d50940b09cfd35a58419e
+      internalID: 612401534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_175
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1537
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33f419b1c5f87640926f178d0a9467b
+      internalID: 2010519976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_176
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1537
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5041e0cfdc2ef4949ab602c7f98e3f5e
+      internalID: -1207826770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_177
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1536
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78042852f83ee746b70ff8eed4a1aca
+      internalID: -1949191392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_178
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1537
+        width: 59
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26630654cae48f24e883ffd55917673d
+      internalID: 641900293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_179
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1536
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b58d293f3b3ef0468f88a56fcbb39da
+      internalID: 1084169408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_180
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1536
+        width: 59
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c69d22a5571fdc46b36b65909bb3a03
+      internalID: -1232006578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_181
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1409
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd6d769c0b8b424492c684f25ea4dda
+      internalID: -1696309221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_182
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1408
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bce42f42fe9a445a0fab26fe4b4562
+      internalID: 2114524156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_183
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1406
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5c2258772ecdb4b9029b6cb6f65c7c
+      internalID: -846048452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_184
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1408
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f7ad22a49702241867baaadcf3c699
+      internalID: -384220797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_185
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1453
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a71592bce6f5f44d9423922d840bbcd
+      internalID: -1587575501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_186
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1406
+        width: 27
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f163573b71117fd47b9c6d0a7c436c67
+      internalID: -80506912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_187
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1408
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4643b6a4d6767894fae4d5862b240cff
+      internalID: -1046042064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_188
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1408
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0441e4fc7a3989c408fcaa270e15ef13
+      internalID: 868266783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_189
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1408
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf25a9f4d5cdba4f866df1ec8e02f01
+      internalID: -1396807688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_190
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1218
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f617f9091845c0a4e8f80c5d462c09aa
+      internalID: -24267712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_191
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1218
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddc19cb1629bab48b901d8982a43719
+      internalID: -368970519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_192
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1218
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00242baf587ed6488c6deaec940666d
+      internalID: -373892545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_193
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1218
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8efcf91bc5c334eacf55f45eb980fe
+      internalID: -1268410800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_194
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1218
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595d5cad19e14b942a9e117dd5ecee97
+      internalID: 1929683943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_195
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1218
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b32249aa5c7ac4db50883584b48ecf
+      internalID: -2092936175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_196
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1218
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf7995096b115b42a4a4c6850196b94
+      internalID: -1902257425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_197
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1218
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba81b9511b47f14419c96626f87eab27
+      internalID: 565361572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_198
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1025
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefb6316c615ecd4f8f84c3ea8879adf
+      internalID: 220998291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_199
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1027
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2813495ebc35243be192e8ca9d832a
+      internalID: 1779531592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_200
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1021
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3ba5cadb4f5904cb1eeb08fa6967c5
+      internalID: 1672629148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_201
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1020
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc58f73151488c459a12892755f8e2c
+      internalID: -950710871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_202
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1017
+        width: 25
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25b070457194734aba3dd7a0feb6276
+      internalID: -574617820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_203
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1011
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53f826ee17544b40a57b420a1fab1c8
+      internalID: -859146363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_204
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1017
+        width: 27
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8529426de887c0488238da3505a1509
+      internalID: 824778292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_205
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1020
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3e960645a31dc4588b163ca22d7186
+      internalID: 534439621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_206
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 833
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757ad74d29639464c9ef4dfb5ef4a2a2
+      internalID: 133513088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_207
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 833
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69daa62424434f144ab6c8912796ce86
+      internalID: 1304085146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_208
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 834
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94be2ac3a83c28942914c1fbacde3ffc
+      internalID: 1509991015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_209
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 833
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e439e78f1cff3d140aec2c7cfcab65b8
+      internalID: -1912348256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_210
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 833
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e738ea3f3858f4b926277f2cc900bc
+      internalID: -76595741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_211
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 833
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a0fa968f4715840bac214bf8060e7d
+      internalID: -1061511907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_212
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 834
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01c73201adb5794987ae9b8d06b5a84
+      internalID: -1019389222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_213
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 834
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce6cce636a622549bb0421f05734ed6
+      internalID: -1751040021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_214
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 639
+        width: 94
+        height: 69
+      alignment: 9
+      pivot: {x: 0.4392479, y: 0.3858068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e084e6471555f4ea9d737b3bcd5947
+      internalID: -1925723742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_215
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 639
+        width: 94
+        height: 69
+      alignment: 9
+      pivot: {x: 0.4392479, y: 0.3858068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6780824cb01c0084fa6b23a2a2b5e913
+      internalID: -816221460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_216
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 639
+        width: 94
+        height: 69
+      alignment: 9
+      pivot: {x: 0.4392479, y: 0.3858068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af1707a6de893349b027a3744e2ead4
+      internalID: 98945550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_217
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 639
+        width: 94
+        height: 69
+      alignment: 9
+      pivot: {x: 0.4392479, y: 0.3858068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd03fae7365227c449fe5ca41f1d83a8
+      internalID: -1449884326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_218
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 639
+        width: 94
+        height: 69
+      alignment: 9
+      pivot: {x: 0.4392479, y: 0.3858068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb30454d2f1f9547bfd3a576663c4db
+      internalID: 1235196542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_219
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 639
+        width: 94
+        height: 69
+      alignment: 9
+      pivot: {x: 0.4392479, y: 0.3858068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d892a0f156c2556439927c9ea604b8d8
+      internalID: -1504935063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_220
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 449
+        width: 69
+        height: 45
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fcd783c55203b429c8ad80bba0429d
+      internalID: -1897162083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_221
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 449
+        width: 69
+        height: 45
+      alignment: 9
+      pivot: {x: 0.68, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87de39a9c3c8f114f8d410bae6f95a68
+      internalID: 1972668273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_222
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 449
+        width: 69
+        height: 45
+      alignment: 9
+      pivot: {x: 0.59, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eabf727499486b4593d77a431b7f160
+      internalID: -1796548153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_223
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 449
+        width: 69
+        height: 45
+      alignment: 9
+      pivot: {x: 0.62, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2dff786d33781449eb8966fa8534f5
+      internalID: 62851165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_224
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 449
+        width: 69
+        height: 45
+      alignment: 9
+      pivot: {x: 0.68, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafc4c093bdb75745848f1427f5d1975
+      internalID: 1399804194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_225
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 449
+        width: 69
+        height: 45
+      alignment: 9
+      pivot: {x: 0.68, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27138b44fd57c8542957950ca9763675
+      internalID: 708602429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_226
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 257
+        width: 56
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5245339, y: 0.508206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63315531785599448bb88eb7ed2f320
+      internalID: 1425448110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_227
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 257
+        width: 56
+        height: 47
+      alignment: 9
+      pivot: {x: 0.6820254, y: 0.5148705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70810b4614e52549a34ce9cbc378369
+      internalID: 266481991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_228
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 257
+        width: 60
+        height: 45
+      alignment: 9
+      pivot: {x: 0.75703734, y: 0.49999526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb791f3abadf7e4d8819133cda9ca1c
+      internalID: -1700263439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_229
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 257
+        width: 88
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5328605, y: 0.33934927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16478931417d1741a446a009d252449
+      internalID: 950682887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_230
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 235
+        width: 88
+        height: 69
+      alignment: 9
+      pivot: {x: 0.45882207, y: 0.6630121}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98839ff67c59f1043bb7311471e1b4ac
+      internalID: 2106599154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_231
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 235
+        width: 88
+        height: 69
+      alignment: 9
+      pivot: {x: 0.2397572, y: 0.6560293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c22dad1afb67294fa61941b48e2100f
+      internalID: 1621489848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_232
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 65
+        width: 56
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5273805, y: 0.48981068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e26089ffc945d8449934ba1a8a1df00
+      internalID: 807407595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_233
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 65
+        width: 31
+        height: 42
+      alignment: 9
+      pivot: {x: 0.570658, y: 0.44263113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0536fa6c276f0834fab5ef027ca0d279
+      internalID: -2007257066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_234
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 65
+        width: 39
+        height: 43
+      alignment: 9
+      pivot: {x: 0.68534184, y: 0.48981068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1160138518125c4fb6513756a24a8d1
+      internalID: -1631342593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_235
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 65
+        width: 70
+        height: 43
+      alignment: 9
+      pivot: {x: 0.3688023, y: 0.50854313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad277a7db25a1be4bbe9478db360f02e
+      internalID: 1920866685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_236
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 65
+        width: 70
+        height: 43
+      alignment: 9
+      pivot: {x: 0.30582798, y: 0.50854313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4c3cea9541d2248adf84f777a1024b
+      internalID: -345167956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download59578_237
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 65
+        width: 67
+        height: 45
+      alignment: 9
+      pivot: {x: 0.31358224, y: 0.51632655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148e018625c408840b03fe97a93f8ab9
+      internalID: 165025757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Download59578_9: 1707243111
+      Download59578_188: 868266783
+      Download59578_75: -365849403
+      Download59578_223: 62851165
+      Download59578_170: 648611822
+      Download59578_115: 404088339
+      Download59578_30: -269123912
+      Download59578_20: -445708962
+      Download59578_29: 279051137
+      Download59578_124: -286273944
+      Download59578_72: -1920598889
+      Download59578_113: 1340177032
+      Download59578_116: 1475753981
+      Download59578_0: 618930342
+      Download59578_218: 1235196542
+      Download59578_131: -1436131308
+      Download59578_152: 233599314
+      Download59578_102: 1788180677
+      Download59578_22: 279057306
+      Download59578_117: -1950197340
+      Download59578_138: -2018565155
+      Download59578_149: 1061345395
+      Download59578_213: -1751040021
+      Download59578_92: -619994856
+      Download59578_21: 1515550513
+      Download59578_206: 133513088
+      Download59578_221: 1972668273
+      Download59578_107: -535780082
+      Download59578_196: -1902257425
+      Download59578_165: -764191824
+      Download59578_237: 165025757
+      Download59578_19: -1813852844
+      Download59578_190: -24267712
+      Download59578_95: 1074382667
+      Download59578_225: 708602429
+      Download59578_58: -253260991
+      Download59578_233: -2007257066
+      Download59578_121: 228975642
+      Download59578_192: -373892545
+      Download59578_174: 612401534
+      Download59578_197: 565361572
+      Download59578_38: -1434031020
+      Download59578_59: 1974636585
+      Download59578_130: 522618075
+      Download59578_43: -2046241133
+      Download59578_145: -307042390
+      Download59578_209: -1912348256
+      Download59578_67: 1954873607
+      Download59578_172: -1837775032
+      Download59578_199: 1779531592
+      Download59578_11: -940184425
+      Download59578_222: -1796548153
+      Download59578_125: -1752932018
+      Download59578_99: 538097773
+      Download59578_13: -262925659
+      Download59578_83: 1945926302
+      Download59578_160: 619291786
+      Download59578_211: -1061511907
+      Download59578_195: -2092936175
+      Download59578_71: 1777548294
+      Download59578_185: -1587575501
+      Download59578_4: 2075408582
+      Download59578_193: -1268410800
+      Download59578_232: 807407595
+      Download59578_163: -595214438
+      Download59578_128: 1439310709
+      Download59578_14: 1674422374
+      Download59578_73: -1587004346
+      Download59578_229: 950682887
+      Download59578_234: -1631342593
+      Download59578_28: 1111303401
+      Download59578_54: 1044933653
+      Download59578_84: 1149721795
+      Download59578_137: -1799315354
+      Download59578_236: -345167956
+      Download59578_235: 1920866685
+      Download59578_219: -1504935063
+      Download59578_91: -1824360521
+      Download59578_86: -953144147
+      Download59578_65: -974425205
+      Download59578_61: -1942453383
+      Download59578_105: -53913759
+      Download59578_17: 1891296118
+      Download59578_151: 253249944
+      Download59578_169: 2086924075
+      Download59578_162: 2095771793
+      Download59578_18: -1812377449
+      Download59578_82: 632517125
+      Download59578_85: 1763129571
+      Download59578_142: -1326857719
+      Download59578_186: -80506912
+      Download59578_103: -1711610866
+      Download59578_46: -1885087724
+      Download59578_141: 1821243313
+      Download59578_12: 1132078898
+      Download59578_110: -1118134882
+      Download59578_191: -368970519
+      Download59578_3: -970859290
+      Download59578_24: 224171774
+      Download59578_150: 1389183963
+      Download59578_159: 1978399523
+      Download59578_2: -949033510
+      Download59578_39: 740488644
+      Download59578_37: -374715563
+      Download59578_69: 351603477
+      Download59578_148: 1169156286
+      Download59578_144: -2131291507
+      Download59578_177: -1949191392
+      Download59578_214: -1925723742
+      Download59578_216: 98945550
+      Download59578_154: 1943473540
+      Download59578_15: -1537490352
+      Download59578_180: -1232006578
+      Download59578_181: -1696309221
+      Download59578_158: 1660847600
+      Download59578_133: 116568904
+      Download59578_119: 632999456
+      Download59578_79: -980698906
+      Download59578_136: -679501792
+      Download59578_157: 881756809
+      Download59578_147: -2029673130
+      Download59578_167: -707050016
+      Download59578_143: 1329045165
+      Download59578_207: 1304085146
+      Download59578_100: 1196159763
+      Download59578_74: 824438252
+      Download59578_56: 2082049759
+      Download59578_76: -889237853
+      Download59578_127: 39207269
+      Download59578_198: 220998291
+      Download59578_171: -1656804845
+      Download59578_44: -1288340038
+      Download59578_62: 1126840744
+      Download59578_34: -1400168153
+      Download59578_132: -1986248160
+      Download59578_63: -1053798014
+      Download59578_164: 1179074855
+      Download59578_200: 1672629148
+      Download59578_205: 534439621
+      Download59578_42: -1332968808
+      Download59578_87: 1370074966
+      Download59578_203: -859146363
+      Download59578_89: 1146047520
+      Download59578_220: -1897162083
+      Download59578_25: -1548562081
+      Download59578_31: -1891392364
+      Download59578_111: 1814709812
+      Download59578_122: -103289796
+      Download59578_48: 1916935279
+      Download59578_166: -1766541776
+      Download59578_68: 271310521
+      Download59578_16: -1155388051
+      Download59578_106: 154868759
+      Download59578_120: -1166530614
+      Download59578_23: 1731427120
+      Download59578_201: -950710871
+      Download59578_6: 496269686
+      Download59578_60: 713645236
+      Download59578_49: 1910105082
+      Download59578_208: 1509991015
+      Download59578_96: 1910084456
+      Download59578_179: 1084169408
+      Download59578_33: -2090761126
+      Download59578_189: -1396807688
+      Download59578_98: 784806142
+      Download59578_5: 467299390
+      Download59578_81: 1011154996
+      Download59578_27: 1117807931
+      Download59578_140: 1898185963
+      Download59578_66: -229652237
+      Download59578_155: 772901648
+      Download59578_55: -10865681
+      Download59578_183: -846048452
+      Download59578_168: -93836361
+      Download59578_78: -266324650
+      Download59578_224: 1399804194
+      Download59578_64: -1299369543
+      Download59578_94: -1118942447
+      Download59578_47: 437392154
+      Download59578_70: -1518236205
+      Download59578_77: -153932601
+      Download59578_7: -437088404
+      Download59578_41: -1924259939
+      Download59578_101: -4409638
+      Download59578_187: -1046042064
+      Download59578_35: 1326691573
+      Download59578_134: -713987462
+      Download59578_173: -208667681
+      Download59578_217: -1449884326
+      Download59578_226: 1425448110
+      Download59578_51: 234327970
+      Download59578_50: 672117567
+      Download59578_204: 824778292
+      Download59578_175: 2010519976
+      Download59578_227: 266481991
+      Download59578_230: 2106599154
+      Download59578_104: 2138640570
+      Download59578_161: -1391565032
+      Download59578_210: -76595741
+      Download59578_80: 656718907
+      Download59578_202: -574617820
+      Download59578_135: 247479519
+      Download59578_118: -139407312
+      Download59578_45: -1759688961
+      Download59578_10: 442870019
+      Download59578_8: -90711015
+      Download59578_90: -388354870
+      Download59578_40: 1187779616
+      Download59578_109: -466756679
+      Download59578_178: 641900293
+      Download59578_53: 338241385
+      Download59578_231: 1621489848
+      Download59578_93: 1852765938
+      Download59578_36: 207187571
+      Download59578_194: 1929683943
+      Download59578_129: 449154119
+      Download59578_156: -1519273080
+      Download59578_176: -1207826770
+      Download59578_57: 1611521459
+      Download59578_88: 271282165
+      Download59578_228: -1700263439
+      Download59578_212: -1019389222
+      Download59578_97: 872174705
+      Download59578_184: -384220797
+      Download59578_146: -689711192
+      Download59578_114: 1463013537
+      Download59578_123: 1446364885
+      Download59578_52: -820149645
+      Download59578_112: -366239740
+      Download59578_108: 855058863
+      Download59578_139: 1590016141
+      Download59578_126: 1411501142
+      Download59578_215: -816221460
+      Download59578_153: -605061372
+      Download59578_26: 1054182778
+      Download59578_32: 346133412
+      Download59578_182: 2114524156
+      Download59578_1: -1423920054
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1333 @@
+fileFormatVersion: 2
+guid: 8d6663e16935b41499d892d7d62489cb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SciFi_Computers_2_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 415
+        width: 140
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125d6e9a39018ee41b707c51ebabf089
+      internalID: -1605970411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 416
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38de4bc2028bfb498525a8870525d6f
+      internalID: -846501964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_2
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 200
+        width: 180
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fcc32653a0267458ee52f2ad6b1ea4
+      internalID: -627809972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 464
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ff80e31b32a77418afd757cc94535e
+      internalID: -1090059059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_4
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 482
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e823e8c84d57634da4c0c80fd3c94f5
+      internalID: -1199190585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_5
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 482
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a884931ff103b284699c0a5b2632c683
+      internalID: -1299433407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_6
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 458
+        width: 61
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23380626962ace469a7ddca00069919
+      internalID: -1495202687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_7
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 385
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def31cda04359a2469907e3f87400c6f
+      internalID: -135525569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_8
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 422
+        width: 55
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eabcb7382cfa24c8a79ae87e8343d6
+      internalID: -1786363834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 188
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3a14f64c1c03e42aebfb735ea6ae10
+      internalID: 707691734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 320
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e3ca33a4d1f1a4daa73ec90ce02d25
+      internalID: -360562348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 320
+        width: 59
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b5f92ab677f544792cea21c789ec42
+      internalID: 1760671191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_12
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 386
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10fd8d55c378f142a99fffd933a831c
+      internalID: -2089452427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_13
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 386
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc9c86cab501364c865deaa0d5f5a32
+      internalID: -855307257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_14
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 361
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa5af579187add41b2955600faf0287
+      internalID: -23246649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_15
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 361
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30378cc260661ff4fa872178b3db4046
+      internalID: 802314273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_16
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 361
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a18c9bfbd208594eb880bea03d70839
+      internalID: 665077528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_17
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba28d7faab5dd6144b74dbd9bbd4204c
+      internalID: 1364096090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_18
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 322
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536f5365375bfe84d99bb2c44f622217
+      internalID: 47643759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_19
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 298
+        width: 75
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e5103d2923f714db949496f1b6deeb
+      internalID: -2063421929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_20
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 266
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a229f6a97a37f10418ad22dce87c29ad
+      internalID: -222211506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_21
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 224
+        width: 90
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462323b9eb701744c8fd3ff015ffe197
+      internalID: 353186311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_22
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 192
+        width: 94
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753cc711588fe3949980c08986a5ad1c
+      internalID: -2008124373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_23
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 185
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57634a94a877dd4b95d16d8b026afd2
+      internalID: 1276495580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_24
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 194
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5e18d768f219d44bb8c438bd082a95
+      internalID: -1786945417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_25
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 198
+        width: 55
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe9170a29c50b74792b75d296d184bc
+      internalID: -1854797064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 163
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6131cae40eb89434d9debd1679717d5a
+      internalID: -1276849368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_27
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 163
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69f2dfb86985ef42b37f1b2f7964caf
+      internalID: 1123965612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_28
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 161
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc5444c26673b543adc5c6b0a98487b
+      internalID: 1206883698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_29
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 137
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37471e4a4c84e8944a02af2d7fde8943
+      internalID: -1752917952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_30
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 140
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea628e012d153f349a2eb01c7b3df965
+      internalID: 417359566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_31
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 140
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3a1d7bab572174e87a5571ad1ffcac
+      internalID: 1825760229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_32
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 162
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdc126fb92050f4986e7e4e770b18f6
+      internalID: 1325289983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_33
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 32
+        width: 251
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721e35c0856081949841890021917aaf
+      internalID: -532057756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_34
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 95
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf74e6ecb8e3ce4983998f91ccdd845
+      internalID: -1234886986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_35
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 130
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e86b19d15a206a499bfd2e54f15f414
+      internalID: -1016596520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_36
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 64
+        width: 9
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07464f733b4e91849936745d84f908fc
+      internalID: 1068052846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_37
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 64
+        width: 9
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79edfe3028e43094b9ab7a518adf914c
+      internalID: -91928674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_38
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 79
+        width: 12
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269f5d6eab31f474394bd1da7f38d4ee
+      internalID: 2016252608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_39
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 99
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f310da08080e141b821cae86bdcd77
+      internalID: 738387098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_40
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 75
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b980a2c1ba2aabe4a8e0f86569cc5a2d
+      internalID: -648091776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_41
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 75
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea091021ed9c2b9479be6112d1448e25
+      internalID: 847122030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_42
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 25
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db6e261b61881e4e9e701a5fe6627ca
+      internalID: 462781196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_43
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 65
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4759d4d0c819d27439db6f8de14aed41
+      internalID: -2035289471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7
+        width: 92
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f783f56bf577eb44f99f4d9a2da30609
+      internalID: 684166293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb099ee25e450e46ad131e6656fa836
+      internalID: 391076326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_46
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb3c6d7a3c325243baf184d0a0ed7bb
+      internalID: 1000733127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_47
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 4
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f8d2fe2bcc41e4b8882e3aaf6c0327
+      internalID: 563046694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_48
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f054a8c59c61b4fbf7aa8a775360c5
+      internalID: 1322814849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_49
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 9
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64448f3365e9e2c43bd8fd9184eff0f6
+      internalID: -780196089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_50
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 9
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afdd79789fc88848b2c380f7897a4ea
+      internalID: 735999450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 11
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ed15804bc8bf24daaa0a50ae0fdff5
+      internalID: -1421456413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_52
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 11
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697184f3ef2d9a04dbf2246225dbece3
+      internalID: -668779669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_53
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 11
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78390dceb2297549a9ebf6bed293b9c
+      internalID: 1281360138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Computers_2_54
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 11
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d55dd822d9c561499ab7d91f52607f6
+      internalID: 1156344376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SciFi_Computers_2_23: 1276495580
+      SciFi_Computers_2_32: 1325289983
+      SciFi_Computers_2_39: 738387098
+      SciFi_Computers_2_29: -1752917952
+      SciFi_Computers_2_51: -1421456413
+      SciFi_Computers_2_13: -855307257
+      SciFi_Computers_2_47: 563046694
+      SciFi_Computers_2_45: 391076326
+      SciFi_Computers_2_12: -2089452427
+      SciFi_Computers_2_19: -2063421929
+      SciFi_Computers_2_37: -91928674
+      SciFi_Computers_2_53: 1281360138
+      SciFi_Computers_2_8: -1786363834
+      SciFi_Computers_2_50: 735999450
+      SciFi_Computers_2_2: -627809972
+      SciFi_Computers_2_40: -648091776
+      SciFi_Computers_2_6: -1495202687
+      SciFi_Computers_2_0: -1605970411
+      SciFi_Computers_2_17: 1364096090
+      SciFi_Computers_2_34: -1234886986
+      SciFi_Computers_2_9: 707691734
+      SciFi_Computers_2_20: -222211506
+      SciFi_Computers_2_54: 1156344376
+      SciFi_Computers_2_28: 1206883698
+      SciFi_Computers_2_42: 462781196
+      SciFi_Computers_2_18: 47643759
+      SciFi_Computers_2_14: -23246649
+      SciFi_Computers_2_10: -360562348
+      SciFi_Computers_2_21: 353186311
+      SciFi_Computers_2_44: 684166293
+      SciFi_Computers_2_49: -780196089
+      SciFi_Computers_2_11: 1760671191
+      SciFi_Computers_2_25: -1854797064
+      SciFi_Computers_2_4: -1199190585
+      SciFi_Computers_2_15: 802314273
+      SciFi_Computers_2_30: 417359566
+      SciFi_Computers_2_36: 1068052846
+      SciFi_Computers_2_27: 1123965612
+      SciFi_Computers_2_48: 1322814849
+      SciFi_Computers_2_41: 847122030
+      SciFi_Computers_2_24: -1786945417
+      SciFi_Computers_2_7: -135525569
+      SciFi_Computers_2_46: 1000733127
+      SciFi_Computers_2_26: -1276849368
+      SciFi_Computers_2_3: -1090059059
+      SciFi_Computers_2_16: 665077528
+      SciFi_Computers_2_43: -2035289471
+      SciFi_Computers_2_33: -532057756
+      SciFi_Computers_2_5: -1299433407
+      SciFi_Computers_2_38: 2016252608
+      SciFi_Computers_2_52: -668779669
+      SciFi_Computers_2_22: -2008124373
+      SciFi_Computers_2_35: -1016596520
+      SciFi_Computers_2_31: 1825760229
+      SciFi_Computers_2_1: -846501964
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

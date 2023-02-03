@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5054462166607787629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5054462166607787631}
+  - component: {fileID: 5054462166607787630}
+  - component: {fileID: 5054462166607787632}
+  m_Layer: 0
+  m_Name: KeyPannel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5054462166607787631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5054462166607787629}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7738545493275436564}
+  - {fileID: 5054462167198795125}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5054462166607787630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5054462166607787629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcacfdaf9ff923e418d839fe6749a880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 5054462167198795125}
+  initPosition: {fileID: 7738545493275436564}
+  keyPrefab: {fileID: 4428153373684498891, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+  numberOfKeys: 100
+  rows: 10
+  columns: 10
+  xSpace: 1.8
+  ySpace: 0.9
+  keyWasFound: 0
+  isGameOver: 0
+  winnerDialogue:
+    name: Key Master
+    sentences:
+    - 'You are a lucky one! aren''t you... '
+    - You found the right key! Congratulations!
+  winButtonText: Open the Door
+  looserDialogue:
+    name: Key Master
+    sentences:
+    - No luck this time. That's the wrong key! The right one was number -1
+  looseButtonText: Try Again
+--- !u!114 &5054462166607787632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5054462166607787629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcee7263e9d39ee4e8a91323ea668955, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Key Master
+    sentences:
+    - Hello stranger! It seems to me that you want a shortcut.
+    - 'Pick a key to try to open the Exit door. But choose wisely, because your chances
+      are one in a hundred. '
+    - Muahahaha....
+--- !u!1 &5054462167198795124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5054462167198795125}
+  m_Layer: 0
+  m_Name: Keys
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5054462167198795125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5054462167198795124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5054462166607787631}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5054462167910693113
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5054462166607787631}
+    m_Modifications:
+    - target: {fileID: 3261125854613626604, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+      propertyPath: m_Name
+      value: KeyNewPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261125854613626604, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261125854613626605, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261125854613626605, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261125854613626605, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261125854613626605, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261125854613626605, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261125854613626605, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261125854613626605, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261125854613626605, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261125854613626605, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261125854613626605, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261125854613626605, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+--- !u!4 &7738545493275436564 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3261125854613626605, guid: f58846a2a3949a346981b7f1a4662f06, type: 3}
+  m_PrefabInstance: {fileID: 5054462167910693113}
+  m_PrefabAsset: {fileID: 0}
