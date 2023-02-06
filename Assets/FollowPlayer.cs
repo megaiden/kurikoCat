@@ -39,6 +39,6 @@ public class FollowPlayer : MonoBehaviour
 
     private void StopLight(bool shouldStop)
     {
-        nav.stoppingDistance = shouldStop ? 8f : 0f;
+        nav.stoppingDistance = shouldStop ? 2f : 7f;
     }
 }

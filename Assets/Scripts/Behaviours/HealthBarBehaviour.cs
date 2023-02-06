@@ -24,4 +24,9 @@ public class HealthBarBehaviour : MonoBehaviour
         text.text = health + "%";
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
+
+    public int GetCurrentHealth()
+    {
+        return (int)slider.value;
+    }
 }

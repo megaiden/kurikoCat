@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Behaviors
@@ -75,14 +74,14 @@ namespace Behaviors
             }
         }
 
-        private void OnCollisionStay(Collision other)
+      /*  private void OnCollisionStay(Collision other)
         {
             if (other.gameObject.CompareTag("Enemy"))
             {
                 OnEnemyGrab?.Invoke();
                 isDead = true;
             }
-        }
+        }*/
 
         private IEnumerator ReduceHealthBySecond(float waitTime)
         {

@@ -7,6 +7,7 @@ TagManager:
   - PickUpItem
   - Enemy
   - Chest
+  - Lamp
   layers:
   - Default
   - TransparentFX
