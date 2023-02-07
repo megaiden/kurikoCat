@@ -9,6 +9,8 @@ public class FollowPlayer : MonoBehaviour
     public Rigidbody enemySpriteRigidBody;
     public Transform enemySpritetransform;
     private NavMeshAgent nav;
+    private float _closeDistance = 2f;
+    private float _awayDistance = 2f;
     private void OnEnable()
     {
         PlayerActionsBehaviour.OnStopLightDamage += StopLight;
@@ -39,6 +41,6 @@ public class FollowPlayer : MonoBehaviour
 
     private void StopLight(bool shouldStop)
     {
-        nav.stoppingDistance = shouldStop ? 2f : 7f;
+        nav.stoppingDistance = shouldStop ? _closeDistance :_awayDistance;
     }
 }

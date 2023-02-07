@@ -165,7 +165,7 @@ namespace Behaviors
                     _lightComponent.range *= 2;
                     break;
                 case "MoreEnergy":
-                    GetComponent<HealthSystem>().DelayDamage *=1.15f;
+                    GetComponent<HealthSystem>().delayDamage *=1.15f;
                     break;
                }
                

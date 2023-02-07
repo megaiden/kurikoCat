@@ -66,29 +66,6 @@ namespace Behaviors
                 ChangeAnimationState(WALKLEFT);  
             }
             
-            
-            // if (Mathf.Abs(_moveVector.x) > Mathf.Abs(_moveVector.z)) // if we are going more to the sides
-            // {
-            //     if (_moveVector.x > _originalPos.x )
-            //     {
-            //         ChangeAnimationState(WALKRIGHT);
-            //     }
-            //     else if (_moveVector.x < _originalPos.x)
-            //     {
-            //         ChangeAnimationState(WALKLEFT);  
-            //     }
-            // }
-            // else if (Mathf.Abs(_moveVector.x) < Mathf.Abs(_moveVector.z)) // if we are going more to throw up/down
-            // {
-            //     if (_moveVector.z > _originalPos.z )
-            //     {
-            //         ChangeAnimationState(WALKUP);     
-            //     }
-            //     else if(_moveVector.z < _originalPos.z)
-            //     {
-            //         ChangeAnimationState(WALKDOWN);
-            //     }
-            // }
 
             if (_gameObjectKurikoCatAgent.remainingDistance < 2)
             {

@@ -16,7 +16,7 @@ namespace Triggers
             {
                 if (!_waitingForRecharging)
                 {
-                    StartCoroutine(GiveEnergyBySecond(1));
+                    StartCoroutine(GiveEnergyBySecond(.3f));
                 }
             }
         }
@@ -25,11 +25,11 @@ namespace Triggers
         {
             _waitingForRecharging = true;
             yield return new WaitForSeconds( waitTime );
-            ReceiveEnergy(1);
+            ReceiveEnergy();
             _waitingForRecharging = false;
         }
 
-        private void ReceiveEnergy(int energy)
+        private void ReceiveEnergy()
         {
             var currentEnergy = EnergyBar.GetCurrentHealth();
             currentEnergy++;
