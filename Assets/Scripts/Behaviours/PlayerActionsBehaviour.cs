@@ -17,6 +17,8 @@ namespace Behaviors
         [SerializeField]
         private Light _lightComponent;
         [SerializeField]
+        private Light _lightInRobotComponent;
+        [SerializeField]
         private float BaseRangeLight;
         
         private Player _player;
@@ -40,7 +42,8 @@ namespace Behaviors
         private const string SLASHUP = "slashUp";
         private const string SLASHRIGHT = "slashRight";
         private const string SLASHLEFT = "slashLeft";
-        
+
+        private Rigidbody lampRigidBodyComponent;
         /* coroutines*/
         private IEnumerator coroutine;
         
@@ -56,6 +59,7 @@ namespace Behaviors
             _player = ReInput.players.GetPlayer(playerId);
             _playerRigidBody = GetComponent<Rigidbody>();
             _startingPosition = _playerRigidBody.position;
+            lampRigidBodyComponent = _lightInRobotComponent.transform.parent.GetComponent<Rigidbody>();
             var spawnPlayers = GameObject.Find("SpawnPlayers");
             if (spawnPlayers)
             {
@@ -103,6 +107,22 @@ namespace Behaviors
             _moveVector = Vector3.zero;
             _moveVector.x = Input.GetAxisRaw("Horizontal");
             _moveVector.z = Input.GetAxisRaw("Vertical");
+
+            var movement = new Vector3( _moveVector.x, 0, _moveVector.z).normalized;
+            _animator.speed = 0;
+            if(movement == Vector3.zero)
+                return;
+            
+            /*  Quaternion targetRotation = Quaternion.LookRotation(movement);
+              
+              targetRotation = Quaternion.RotateTowards(
+                  _lightInRobotComponent.transform.parent.rotation,
+                  targetRotation,
+                  360 * Time.fixedDeltaTime);
+             
+              lampRigidBodyComponent.MovePosition(transform.position);
+              lampRigidBodyComponent.MoveRotation(targetRotation);*/
+            
             switch (_moveVector.x)
             {
                 case > 0 when _moveVector.z is 0: // movimiento horizontal
@@ -136,7 +156,6 @@ namespace Behaviors
                             _animator.speed = 0;
                             break;
                     }
- 
                     break;
             }
 

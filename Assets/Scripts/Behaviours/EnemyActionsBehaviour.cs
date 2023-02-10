@@ -6,11 +6,11 @@ namespace Behaviors
 {
     public class EnemyActionsBehaviour : MonoBehaviour
     {
-        public Transform kurikoCat;
-        private NavMeshAgent _gameObjectKurikoCatAgent;
+        public Transform gameObjectAgent;
+        private NavMeshAgent _gameObjectAgent;
         private Animator _animator;
         private string _currentState;
-        private Vector3 _moveVector, _originalPos;
+        private Vector3 _moveVector;
        
         
         /*Animations assigned as const*/
@@ -24,21 +24,20 @@ namespace Behaviors
 
         private void Start()
         {
-            var position = transform.position;
-            _originalPos = position;
+            _startingPosition = transform.position;
             GameManager.OnVictory -= StopFollowingPlayer;
             GameManager.OnVictory += StopFollowingPlayer;
             GameManager.OnRestart -= Restart;
             GameManager.OnRestart += Restart;
             _animator = GetComponent<Animator>();
-            _gameObjectKurikoCatAgent = kurikoCat.GetComponent<NavMeshAgent>();
-            _startingPosition = position;
+            _gameObjectAgent = gameObjectAgent.GetComponent<NavMeshAgent>();
+
         }
 
         private void Restart()
         {
             transform.position = _startingPosition;
-            kurikoCat.position = _startingPosition;
+            gameObjectAgent.position = _startingPosition;
             _followPlayer = true;
         }
 
@@ -53,26 +52,24 @@ namespace Behaviors
             if (!_followPlayer)
                 return;
             
-
             _moveVector  = transform.position;
-            // _animator.speed = 0;
-
-            if (_moveVector.x > _originalPos.x )
+            
+            if (_moveVector.x > _startingPosition.x )
             {
                 ChangeAnimationState(WALKRIGHT);
             }
-            else if (_moveVector.x < _originalPos.x)
+            else if (_moveVector.x < _startingPosition.x)
             {
                 ChangeAnimationState(WALKLEFT);  
             }
             
 
-            if (_gameObjectKurikoCatAgent.remainingDistance < 2)
+            if (_gameObjectAgent.remainingDistance < 2)
             {
                 //ChangeAnimationState(IDDLE);
                 _animator.speed = 0;
             }
-            _originalPos = transform.position;
+            _startingPosition = transform.position;
         }
         
         // change the animation and reassign the current one

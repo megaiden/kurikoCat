@@ -10,11 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 195433017173346311}
   - component: {fileID: 195433017173346306}
-  - component: {fileID: 6228126712968643697}
   - component: {fileID: 195433017897212075}
   - component: {fileID: 381235860}
   - component: {fileID: 381235859}
-  - component: {fileID: 1316659795}
   m_Layer: 6
   m_Name: Enemy
   m_TagString: Enemy
@@ -50,21 +48,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6228126712968643697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195433017173346307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 110a92514fbc10148856d3bd11271b06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  enemySpriteRigidBody: {fileID: 0}
-  enemySpritetransform: {fileID: 0}
 --- !u!195 &195433017897212075
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -117,23 +100,3 @@ CapsuleCollider:
   m_Height: 2.41249
   m_Direction: 1
   m_Center: {x: 0, y: 0.2707219, z: 0}
---- !u!95 &1316659795
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195433017173346307}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 57ee543e28a34654d81d888140581f99, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

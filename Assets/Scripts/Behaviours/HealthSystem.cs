@@ -61,7 +61,7 @@ namespace Behaviors
                        return;
                    case 1:
                        //giving the last stretch of 10 seconds before going totally dark  
-                       StartCoroutine(ReduceHealthBySecond(10));
+                       StartCoroutine(ReduceHealthBySecond(5));
                        break;
                    default:
                        StartCoroutine(ReduceHealthBySecond(delayDamage));
@@ -92,6 +92,7 @@ namespace Behaviors
 
         private void TakeDamage(int damage)
         {
+            var currentHealth = EnergyBar.GetCurrentHealth();
             currentHealth -= damage;
             //healthBar.ForEach(x => x.SetHealth(currentHealth));
             EnergyBar.SetHealth(currentHealth);
