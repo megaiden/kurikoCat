@@ -43,7 +43,7 @@ namespace Behaviors
         private const string SLASHRIGHT = "slashRight";
         private const string SLASHLEFT = "slashLeft";
 
-        private Rigidbody lampRigidBodyComponent;
+        private HealthSystem _healthSystemBodyComponent;
         /* coroutines*/
         private IEnumerator coroutine;
         
@@ -55,11 +55,12 @@ namespace Behaviors
         #region MonoBehaviour Functions from unity
         private void Start()
         {
+            _healthSystemBodyComponent = GetComponent<HealthSystem>();
             _animator = GetComponent<Animator>();
             _player = ReInput.players.GetPlayer(playerId);
             _playerRigidBody = GetComponent<Rigidbody>();
             _startingPosition = _playerRigidBody.position;
-            lampRigidBodyComponent = _lightInRobotComponent.transform.parent.GetComponent<Rigidbody>();
+           // lampRigidBodyComponent = _lightInRobotComponent.transform.parent.GetComponent<Rigidbody>();
             var spawnPlayers = GameObject.Find("SpawnPlayers");
             if (spawnPlayers)
             {
@@ -168,7 +169,6 @@ namespace Behaviors
                 OnStopLightDamage?.Invoke(lightSwitch);
                 AudioManager.PlaySound(AudioManager.Sound.LightSwitch, false);
             }
-
             
             _isChest = Input.GetButtonDown("Jump");
             if (_isChest && OpenChest != null)
@@ -184,12 +184,10 @@ namespace Behaviors
                     _lightComponent.range *= 2;
                     break;
                 case "MoreEnergy":
-                    GetComponent<HealthSystem>().delayDamage *=1.15f;
+                    _healthSystemBodyComponent.delayDamage *=1.15f;
                     break;
                }
-               
             }
-
         }
 
         private void ProcessMovementInput()

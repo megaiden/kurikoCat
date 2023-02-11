@@ -1,17 +1,24 @@
-﻿using System.Collections.Generic;
+﻿
+using System.Linq;
 using UnityEngine;
+
 
 namespace Behaviours
 {
     public  class  HearthsBehaviour : MonoBehaviour
     {
-        [SerializeField] public List<GameObject> hearthParent;
+        [SerializeField] public Transform hearthParent;
+        [SerializeField] public GameObject prefabHearth;
 
 
-
-        public void OnDamagePlayer()
+        public void OnLosingHearth()
         {
-            hearthParent.RemoveAt(hearthParent.Count);
+            hearthParent.Cast<Transform>().Last(x => x.gameObject.activeInHierarchy).gameObject.SetActive(false);
+        }
+        
+        public void OnRecoveringHearthPlayer()
+        {
+            Instantiate(prefabHearth, hearthParent, true);
         }
     }
 }

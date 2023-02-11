@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using Behaviours;
+using UnityEngine;
 using UnityEngine.AI;
 
 namespace Behaviors
@@ -21,6 +23,8 @@ namespace Behaviors
         private NavMeshAgent nav;
         private Animator _animator;
         private bool _hasDestinationPatrolSet;
+        private HearthsBehaviour _hearthsBehaviourComponent;
+        private bool _canReceiveDamage = true;
         private void OnEnable()
         {
             PlayerActionsBehaviour.OnStopLightDamage += StopLight;
@@ -35,6 +39,7 @@ namespace Behaviors
         {
             nav = GetComponent<NavMeshAgent>();
             _animator = SpriteTransform.GetComponent<Animator>();
+            _hearthsBehaviourComponent = target.GetComponent<HearthsBehaviour>();
         }
     
         private void FixedUpdate()
@@ -72,14 +77,24 @@ namespace Behaviors
             nav.stoppingDistance = shouldStop ? _closeDistance :_awayDistance;
         }
     
-        private void OnTriggerEnter(Collider other)
+        private void OnTriggerStay(Collider other)
         {
-           /* if(other.CompareTag("Player"))
+            if(other.CompareTag("Player"))
             {
-                nav.isStopped = false;
-                nav.ResetPath();
-                _animator.speed = 1;
-            }*/
+                if (_canReceiveDamage)
+                {
+                    StartCoroutine(ReduceHealthBySecond(3));
+                }
+            }
+        }
+        
+        
+        private IEnumerator ReduceHealthBySecond(float waitTime)
+        {
+            _canReceiveDamage = false;
+            _hearthsBehaviourComponent.OnLosingHearth();
+            yield return new WaitForSeconds( waitTime );
+            _canReceiveDamage = true;
         }
         
     }
