@@ -18,7 +18,7 @@ public class RobotAnimVictory : MonoBehaviour
     public void Func_PlayUIAnim()
     { 
         IsDone = false;
-        m_CorotineAnim = StartCoroutine(Func_PlayAnimUI());
+        StartCoroutine(Func_PlayAnimUI());
     }      
     public void Func_StopUIAnim()
     {      
@@ -27,14 +27,14 @@ public class RobotAnimVictory : MonoBehaviour
     }
     IEnumerator Func_PlayAnimUI()
     {
-            yield return new WaitForSeconds(m_Speed);
-            if (m_IndexSprite >= m_SpriteArray.Length)
-            {
-                m_IndexSprite = 0;
-            }
-            m_Image.sprite = m_SpriteArray[m_IndexSprite];
-            m_IndexSprite += 1;
-            if (IsDone == false)
-                m_CorotineAnim = StartCoroutine(Func_PlayAnimUI());
+        if (m_IndexSprite >= m_SpriteArray.Length)
+        {
+            m_IndexSprite = 0;
+        }
+        m_Image.sprite = m_SpriteArray[m_IndexSprite];
+        yield return new WaitForSeconds(m_Speed);
+
+        m_IndexSprite += 1;
+        StartCoroutine(Func_PlayAnimUI());
     }
 }

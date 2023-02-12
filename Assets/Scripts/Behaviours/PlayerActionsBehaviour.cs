@@ -11,7 +11,9 @@ namespace Behaviors
         [SerializeField] 
         public int playerId; // rewired player Id of this character
         public float moveSpeed;
+        public bool isPlayerHit, isGameOver;
 
+        
         [SerializeField]
         private float BaseMovementSpeed;
         [SerializeField]
@@ -27,21 +29,15 @@ namespace Behaviors
         private bool  _isAction, _animationComplete, _isChest;
         private OpenChest OpenChest;
         private Rigidbody _playerRigidBody;
-        private Animator _animator;
+
         private string _currentState;
         private Vector2 _startingPosition;
-
+        private Animator _animator;
         /*Animations assigned as const*/
-        private const string JUMP = "jump";
-        private const string IDLE = "Idle";
         private const string WALKLEFT = "walkLeft";
         private const string WALKRIGHT = "walkRight";
         private const string WALKUP = "walkUp";
         private const string WALKDOWN = "walkDown";
-        private const string SLASHDOWN = "slashDown";
-        private const string SLASHUP = "slashUp";
-        private const string SLASHRIGHT = "slashRight";
-        private const string SLASHLEFT = "slashLeft";
 
         private HealthSystem _healthSystemBodyComponent;
         /* coroutines*/
@@ -75,6 +71,7 @@ namespace Behaviors
             GameManager.OnVictory += TurnOnLights;
             moveSpeed = BaseMovementSpeed;
             _lightComponent.range = BaseRangeLight;
+            _animator.speed = 1;
         }
 
         private void Restart()
@@ -106,14 +103,20 @@ namespace Behaviors
             /*moveVector.x = player.GetAxis("Move Horizontal");
             moveVector.y = player.GetAxis("Vertical");*/
             _moveVector = Vector3.zero;
-            _moveVector.x = Input.GetAxisRaw("Horizontal");
-            _moveVector.z = Input.GetAxisRaw("Vertical");
-
-            var movement = new Vector3( _moveVector.x, 0, _moveVector.z).normalized;
-            _animator.speed = 0;
-            if(movement == Vector3.zero)
-                return;
+            if (!isGameOver)
+            {
+                _moveVector.x = Input.GetAxisRaw("Horizontal");
+                _moveVector.z = Input.GetAxisRaw("Vertical");    
+            }
             
+            var movement = new Vector3( _moveVector.x, 0, _moveVector.z).normalized;
+            
+            if (movement == Vector3.zero)
+            {
+                _animator.speed = isPlayerHit ? 1 : 0;
+                return;
+            }
+            _animator.speed = 1;
             /*  Quaternion targetRotation = Quaternion.LookRotation(movement);
               
               targetRotation = Quaternion.RotateTowards(
@@ -199,10 +202,10 @@ namespace Behaviors
         #endregion
         
         // change the animation and reassign the current one
-        private void ChangeAnimationState(string newState)
+        public void ChangeAnimationState(string newState)
         {
-            AudioManager.PlaySound(AudioManager.Sound.PlayerMove, false);
             _animator.speed = 1;
+            AudioManager.PlaySound(AudioManager.Sound.PlayerMove, false);
             if (_currentState == newState) return;
             
             _animator.Play(newState);

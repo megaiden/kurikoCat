@@ -24,7 +24,12 @@ namespace Behaviors
         private Animator _animator;
         private bool _hasDestinationPatrolSet;
         private HearthsBehaviour _hearthsBehaviourComponent;
+        private PlayerActionsBehaviour _playerActionsBehaviour;
         private bool _canReceiveDamage = true;
+        
+        /*Animations assigned as const*/
+        private const string GETHIT = "getHit";
+        
         private void OnEnable()
         {
             PlayerActionsBehaviour.OnStopLightDamage += StopLight;
@@ -40,6 +45,7 @@ namespace Behaviors
             nav = GetComponent<NavMeshAgent>();
             _animator = SpriteTransform.GetComponent<Animator>();
             _hearthsBehaviourComponent = target.GetComponent<HearthsBehaviour>();
+            _playerActionsBehaviour = target.GetComponent<PlayerActionsBehaviour>();
         }
     
         private void FixedUpdate()
@@ -92,9 +98,12 @@ namespace Behaviors
         private IEnumerator ReduceHealthBySecond(float waitTime)
         {
             _canReceiveDamage = false;
+            _playerActionsBehaviour.isPlayerHit = true;
+            _playerActionsBehaviour.ChangeAnimationState(GETHIT);
             _hearthsBehaviourComponent.OnLosingHearth();
             yield return new WaitForSeconds( waitTime );
             _canReceiveDamage = true;
+            _playerActionsBehaviour.isPlayerHit = false;
         }
         
     }
