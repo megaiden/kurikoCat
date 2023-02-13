@@ -38,6 +38,7 @@ public class FollowPlayer : MonoBehaviour
     {
         if (nav.remainingDistance <= 8)
         {
+            _animator.speed = 1;
             nav.SetDestination(target.position);
         }
         else
