@@ -24,6 +24,7 @@ namespace Behaviors
         private float BaseRangeLight;
         
         private Player _player;
+        public int _catsFoundCount;
         private float _moveDirection;
         private Vector3 _moveVector;
         private bool  _isAction, _animationComplete, _isChest;
@@ -38,7 +39,7 @@ namespace Behaviors
         private const string WALKRIGHT = "walkRight";
         private const string WALKUP = "walkUp";
         private const string WALKDOWN = "walkDown";
-
+ 
         private HealthSystem _healthSystemBodyComponent;
         /* coroutines*/
         private IEnumerator coroutine;
