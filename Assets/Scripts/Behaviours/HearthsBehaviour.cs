@@ -42,7 +42,7 @@ namespace Behaviours
         
         public void OnRecoveringHearthPlayer()
         {
-            Instantiate(prefabHearth, hearthParent, true);
+            hearthParent.Cast<Transform>().Last(x => x.gameObject.activeInHierarchy == false).gameObject.SetActive(true);
         }
 
         private void FixedUpdate()

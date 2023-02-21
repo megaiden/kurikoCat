@@ -10,7 +10,7 @@ namespace Behaviors
         private NavMeshAgent _gameObjectAgent;
         private Animator _animator;
         private string _currentState;
-        private Vector3 _moveVector;
+        private Vector3 position;
        
         
         /*Animations assigned as const*/
@@ -52,17 +52,30 @@ namespace Behaviors
             if (!_followPlayer)
                 return;
             
-            _moveVector  = transform.position;
+            position  = transform.position;
             
-            if (_moveVector.x > _startingPosition.x )
+            if (Math.Abs(position.x - _startingPosition.x) < Math.Abs(position.z - _startingPosition.z) ) // if the movement in Y axis is more than the one in X we move vertically
             {
-                ChangeAnimationState(WALKRIGHT);
+                if (_startingPosition.z > position.z)
+                {
+                    ChangeAnimationState(WALKDOWN);
+                }
+                else if (_startingPosition.z < position.z)
+                {
+                    ChangeAnimationState(WALKUP);
+                }
             }
-            else if (_moveVector.x < _startingPosition.x)
+            else if (Math.Abs(position.x - _startingPosition.x)  > Math.Abs(position.z - _startingPosition.z))
             {
-                ChangeAnimationState(WALKLEFT);  
+                if (_startingPosition.x > position.x )
+                {
+                    ChangeAnimationState(WALKLEFT);
+                }
+                else if (_startingPosition.x < position.x)
+                {
+                    ChangeAnimationState(WALKRIGHT);  
+                }
             }
-            
 
             if (_gameObjectAgent.remainingDistance < 2)
             {

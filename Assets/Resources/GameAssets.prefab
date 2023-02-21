@@ -65,3 +65,15 @@ MonoBehaviour:
     audioclip: {fileID: 8300000, guid: 251d5518ddaa91549abdc09e43443b36, type: 3}
   - sound: 5
     audioclip: {fileID: 8300000, guid: 7889e9ac53c54624fa0e18d26807ed30, type: 3}
+  - sound: 15
+    audioclip: {fileID: 8300000, guid: b29cb265c230a9d40b0d9d8a5c365e81, type: 3}
+  - sound: 16
+    audioclip: {fileID: 8300000, guid: 7efac4f993a2c4f4a85381e6ae639180, type: 3}
+  - sound: 17
+    audioclip: {fileID: 8300000, guid: 32824f55b95bacb4f843409002c0364f, type: 3}
+  - sound: 18
+    audioclip: {fileID: 8300000, guid: 7b73da114291bf74a895ef3d72e11ece, type: 3}
+  - sound: 19
+    audioclip: {fileID: 8300000, guid: 89e80ddfa01203f4d8fb0aabbb12ed2a, type: 3}
+  - sound: 20
+    audioclip: {fileID: 8300000, guid: 193f74487af75c74089a87967a00cd4e, type: 3}

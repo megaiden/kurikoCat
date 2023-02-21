@@ -12,12 +12,17 @@ public class AudioManager : MonoBehaviour
         PlayerOnePercent = 3,
         PlayerDied = 4,
         LightSwitch = 5,
-
         GameRestart = 10,
         MainMenu = 11,
         Background = 12,
         rightSelection = 13,
         wrongSelection = 14,
+        CatMeow1 = 15,
+        CatMeow2 = 16,
+        CatMeow3 = 17,
+        CatMeow4 = 18,
+        CatMeow5 = 19,
+        CatMeow6 = 20
     }
 
     private static Dictionary<Sound, float> soundTimerDictionary;
@@ -30,7 +35,7 @@ public class AudioManager : MonoBehaviour
     /// <summary>
     /// To be called from any part in the game where sound is needed. Example: AudioManager.PlaySound(AudioManager.Sound.rightSelection, false);
     /// </summary>
-    public static void PlaySound(Sound sound, bool isLoop = false)
+    public static void PlaySound(Sound sound, bool isLoop = false, float volume = 1.0f)
     {
         if (CanPlaySound(sound))
         {
@@ -46,6 +51,7 @@ public class AudioManager : MonoBehaviour
                 audioSource.loop = false;
 
             audioSource.clip = GetAudioClip(sound);
+            audioSource.volume = volume;
             audioSource.Play();
         }
     }

@@ -1,4 +1,4 @@
-using System;
+using System.Collections;
 using Behaviors;
 using TMPro;
 using UnityEngine;
@@ -18,6 +18,7 @@ namespace Behaviours
         private Animator _animator;
         private PlayerActionsBehaviour _playerActionsBehaviourComponent;
         private TextMeshProUGUI _catsFoundText;
+        private bool _isCallingHelp, _catLeft;
         private void OnEnable()
         {
             PlayerActionsBehaviour.OnStopLightDamage += StopLight;
@@ -54,7 +55,26 @@ namespace Behaviours
                 _animator.speed = 0;
                 nav.isStopped = true;
             }
+
+            if (_catLeft)
+            {
+                if (!_isCallingHelp)
+                {
+                    var randomMeow = Random.Range(15, 20);
+                    var sound = (AudioManager.Sound) randomMeow;
+                    StartCoroutine(PlayingMeowAndWait(sound));    
+                }
+            }
             
+        }
+        
+        private IEnumerator PlayingMeowAndWait(AudioManager.Sound sound)
+        {
+            _isCallingHelp = true;
+            yield return new WaitForSeconds( 3.5f );
+            _isCallingHelp = false;
+            if(_catLeft)
+                AudioManager.PlaySound(sound, false, .70f);
         }
 
         private void StopLight(bool shouldStop)
@@ -73,6 +93,7 @@ namespace Behaviours
                 nav.isStopped = false;
                 _animator.speed = 1;
                 nav.ResetPath();
+                _catLeft = false;
 
             }
         }
@@ -83,6 +104,7 @@ namespace Behaviours
             {
                 _playerActionsBehaviourComponent._catsFoundCount--;
                 _catsFoundText.text = _playerActionsBehaviourComponent._catsFoundCount.ToString();
+                _catLeft = true;
             }
         }
     }

@@ -1,7 +1,8 @@
+using System;
 using System.Collections;
 using Rewired;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace Behaviors
 {
@@ -12,7 +13,9 @@ namespace Behaviors
         public int playerId; // rewired player Id of this character
         public float moveSpeed;
         public bool isPlayerHit, isGameOver;
-
+        public bool showDialogue;
+        [SerializeField] 
+        public Camera mainCamera;
         
         [SerializeField]
         private float BaseMovementSpeed;
@@ -39,8 +42,15 @@ namespace Behaviors
         private const string WALKRIGHT = "walkRight";
         private const string WALKUP = "walkUp";
         private const string WALKDOWN = "walkDown";
+        private const string LOOKSIDES = "lookingSides";
+        private const string CONFUSED = "confused";
+        private const string CHESTHIT = "chestHit";
  
         private HealthSystem _healthSystemBodyComponent;
+        private Vector2 _startPos;
+        private Vector2 _direction;
+        private bool _startEventEnded;
+
         /* coroutines*/
         private IEnumerator coroutine;
         
@@ -73,6 +83,7 @@ namespace Behaviors
             moveSpeed = BaseMovementSpeed;
             _lightComponent.range = BaseRangeLight;
             _animator.speed = 1;
+            EventStart();
         }
 
         private void Restart()
@@ -84,40 +95,97 @@ namespace Behaviors
 
         private void FixedUpdate()
         {
+            // if (_moveVector != Vector3.zero)
+            // {
+            //     ProcessMovementInput();
+            // }
+            
             if (_moveVector != Vector3.zero)
             {
-                ProcessMovementInput();
+                transform.position = Vector3.Lerp( transform.position, _moveVector, Time.fixedDeltaTime*.8f);
             }
         }
 
         private void Update()
         {
-            GetInput();
+
+            if (_startEventEnded)
+            {
+                GetInput();
+            }
+
         }
+
+        #endregion
+
+        #region Coroutines
+        private IEnumerator EventThenWait()
+        {
+            yield return new WaitForSeconds( 3f );
+            AudioManager.PlaySound(AudioManager.Sound.CatMeow5);
+            ChangeAnimationState(LOOKSIDES);
+            yield return new WaitForSeconds( 2f );
+            ChangeAnimationState(CONFUSED);
+            showDialogue = true;
+            yield return new WaitForSeconds( 4f );
+            ChangeAnimationState(CHESTHIT);
+        }
+        
+        private IEnumerator WaitForAnimation() 
+        {
+            yield return StartCoroutine(EventThenWait());
+            _startEventEnded = true;
+        }
+        
 
         #endregion
         
         #region Functions created for the actions of the player
 
-        private void GetInput()
+        private void EventStart()
         {
-            /*moveVector.x = player.GetAxis("Move Horizontal");
-            moveVector.y = player.GetAxis("Vertical");*/
-            _moveVector = Vector3.zero;
-            if (!isGameOver)
+            StartCoroutine(WaitForAnimation());
+        }
+        
+        private void GetInput()
+        {                
+            var position = transform.position;
+            
+           if (isGameOver) return;
+           
+            //Check if the left mouse button was clicked
+            if (Input.GetMouseButton(0))
             {
-                _moveVector.x = Input.GetAxisRaw("Horizontal");
-                _moveVector.z = Input.GetAxisRaw("Vertical");    
+                // Check if the mouse was clicked over a UI element
+               if (!EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
+                {
+                    var screenPosition = new Vector3(Input.mousePosition.x,Input.mousePosition.y, Input.mousePosition.z);
+                    var worldPosition = mainCamera.ScreenToWorldPoint(screenPosition);
+                    _moveVector = new Vector3(worldPosition.x, position.y, worldPosition.z);
+                }
             }
             
-            var movement = new Vector3( _moveVector.x, 0, _moveVector.z).normalized;
-            
-            if (movement == Vector3.zero)
+            if (Math.Abs(position.x - _moveVector.x) < .50f && Math.Abs(position.z - _moveVector.z) < .50f )
             {
                 _animator.speed = isPlayerHit ? 1 : 0;
                 return;
             }
-            _animator.speed = 1;
+            
+            if (_moveVector != Vector3.zero && !isPlayerHit)
+            {
+                _animator.speed = 1;
+                DirectionMovement(_moveVector);
+                AudioManager.PlaySound(AudioManager.Sound.PlayerMove);
+            }
+
+            /*var movement = new Vector3( _moveVector.x, 0, _moveVector.z).normalized;
+
+            if (movement == Vector3.zero)
+            {
+                _animator.speed = isPlayerHit ? 1 : 0;
+                return;
+            }*/
+
             /*  Quaternion targetRotation = Quaternion.LookRotation(movement);
               
               targetRotation = Quaternion.RotateTowards(
@@ -127,72 +195,103 @@ namespace Behaviors
              
               lampRigidBodyComponent.MovePosition(transform.position);
               lampRigidBodyComponent.MoveRotation(targetRotation);*/
-            
-            switch (_moveVector.x)
-            {
-                case > 0 when _moveVector.z is 0: // movimiento horizontal
-                    ChangeAnimationState(WALKRIGHT);
-                    break;
-                case < 0 when _moveVector.z is 0: // movimiento horizontal
-                    ChangeAnimationState(WALKLEFT);
-                    break;
-                case > 0 when _moveVector.z is > 0: // movimiento vertical/ horizontal derecha direccion arriba
-                    ChangeAnimationState(WALKUP);
-                    break;
-                case < 0 when _moveVector.z is > 0: // movimiento vertical/ horizontal izquierda direccion arriba
-                    ChangeAnimationState(WALKUP);
-                    break;
-                case > 0 when _moveVector.z is < 0: // movimiento vertical/ horizontal derecha direccion abajo
-                    ChangeAnimationState(WALKRIGHT);
-                    break;
-                case < 0 when _moveVector.z is < 0: // movimiento vertical/ horizontal derecha direccion abajo
-                    ChangeAnimationState(WALKLEFT);
-                    break;
-                default:
-                    switch (_moveVector.z)
-                    {
-                        case > 0 when _moveVector.x is 0: // movimiento arriba
-                            ChangeAnimationState(WALKUP);
-                            break;
-                        case < 0 when _moveVector.x is 0: // movimiento abajo
-                            ChangeAnimationState(WALKDOWN);
-                            break;
-                        default:
-                            _animator.speed = 0;
-                            break;
-                    }
-                    break;
-            }
+
+            //DirectionMovement(_moveVector);
 
             //_isAction =_player.GetButtonDown("Action");
-            _isAction = Input.GetButtonDown("Fire1");
-            if (_isAction && !GameManager.instance.uiOnScreen())
-            {
-                var lightSwitch = !_lightComponent.gameObject.activeSelf;
-                _lightComponent.gameObject.SetActive(lightSwitch);
-                OnStopLightDamage?.Invoke(lightSwitch);
-                AudioManager.PlaySound(AudioManager.Sound.LightSwitch, false);
-            }
+            // _isAction = Input.GetButtonDown("Fire1");
+            // if (_isAction && !GameManager.instance.uiOnScreen())
+            // {
+            //     var lightSwitch = !_lightComponent.gameObject.activeSelf;
+            //     _lightComponent.gameObject.SetActive(lightSwitch);
+            //     OnStopLightDamage?.Invoke(lightSwitch);
+            //     AudioManager.PlaySound(AudioManager.Sound.LightSwitch, false);
+            // }
+            //
+            // _isChest = Input.GetButtonDown("Jump");
+            // if (_isChest && OpenChest != null)
+            // {
+            //     var augment = OpenChest.GetAugment();
+            //     Debug.Log(augment._NameAugment);
+            //     switch (augment._NameAugment)
+            //     {
+            //         case "SpeedBoost":
+            //             moveSpeed=moveSpeed*1.5f;
+            //             break;
+            //         case "BetterLight":
+            //             _lightComponent.range *= 2;
+            //             break;
+            //         case "MoreEnergy":
+            //             _healthSystemBodyComponent.delayDamage *=1.15f;
+            //             break;
+            //     }
+            // }
+        }
+
+        private void DirectionMovement(Vector3 vectorToMove)
+        {
+            // switch (vectorToMove.x)
+            // {
+            //     case > 0 when vectorToMove.z is 0: // movimiento horizontal
+            //         ChangeAnimationState(WALKRIGHT);
+            //         break;
+            //     case < 0 when vectorToMove.z is 0: // movimiento horizontal
+            //         ChangeAnimationState(WALKLEFT);
+            //         break;
+            //     case > 0 when vectorToMove.z is > 0: // movimiento vertical/ horizontal derecha direccion arriba
+            //         ChangeAnimationState(WALKUP);
+            //         break;
+            //     case < 0 when vectorToMove.z is > 0: // movimiento vertical/ horizontal izquierda direccion arriba
+            //         ChangeAnimationState(WALKUP);
+            //         break;
+            //     case > 0 when vectorToMove.z is < 0: // movimiento vertical/ horizontal derecha direccion abajo
+            //         ChangeAnimationState(WALKRIGHT);
+            //         break;
+            //     case < 0 when vectorToMove.z is < 0: // movimiento vertical/ horizontal derecha direccion abajo
+            //         ChangeAnimationState(WALKLEFT);
+            //         break;
+            //     default:
+            //         switch (vectorToMove.z)
+            //         {
+            //             case > 0 when vectorToMove.x is 0: // movimiento arriba
+            //                 ChangeAnimationState(WALKUP);
+            //                 break;
+            //             case < 0 when vectorToMove.x is 0: // movimiento abajo
+            //                 ChangeAnimationState(WALKDOWN);
+            //                 break;
+            //             default:
+            //                 _animator.speed = 0;
+            //                 break;
+            //         }
+            //         break;
+            // }
             
-            _isChest = Input.GetButtonDown("Jump");
-            if (_isChest && OpenChest != null)
+            var position = transform.position;
+
+            if (Math.Abs(position.x - _moveVector.x) < Math.Abs(position.z - _moveVector.z) ) // if the movement in Y axis is more than the one in X we move vertically
             {
-               var augment = OpenChest.GetAugment();
-                Debug.Log(augment._NameAugment);
-               switch (augment._NameAugment)
-               {
-                case "SpeedBoost":
-                    moveSpeed=moveSpeed*1.5f;
-                    break;
-                case "BetterLight":
-                    _lightComponent.range *= 2;
-                    break;
-                case "MoreEnergy":
-                    _healthSystemBodyComponent.delayDamage *=1.15f;
-                    break;
-               }
+                if (_moveVector.z >= position.z)
+                {
+                    ChangeAnimationState(WALKUP);
+                }
+                else if (_moveVector.z < position.z)
+                {
+                    ChangeAnimationState(WALKDOWN);
+                }
+            }
+            else if (Math.Abs(position.x - _moveVector.x)  > Math.Abs(position.z - _moveVector.z))
+            {
+                if (_moveVector.x > position.x )
+                {
+                    ChangeAnimationState(WALKRIGHT);
+                }
+                else if (_moveVector.x < position.x)
+                {
+                    ChangeAnimationState(WALKLEFT);  
+                }
             }
         }
+
 
         private void ProcessMovementInput()
         {
@@ -206,7 +305,7 @@ namespace Behaviors
         public void ChangeAnimationState(string newState)
         {
             _animator.speed = 1;
-            AudioManager.PlaySound(AudioManager.Sound.PlayerMove, false);
+         
             if (_currentState == newState) return;
             
             _animator.Play(newState);

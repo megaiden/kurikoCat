@@ -1,16 +1,23 @@
-﻿using UnityEngine;
+﻿using Behaviors;
+using UnityEngine;
 
 namespace Triggers
 {
     public class RegularDialogue : MonoBehaviour
     {
         public Dialogue dialogue;
-
-        private void OnTriggerEnter(Collider other)
+        private bool _dialogueShown;
+        private void OnTriggerStay(Collider other)
         {
-            if (other.gameObject.CompareTag("Player"))
+            var playerGameObject = other.gameObject;
+            if (playerGameObject.CompareTag("Player"))
             {
-                FindObjectOfType<DialogueManager>().StartDialogue(dialogue, true, "", DialogueManager.ActionType.None);
+                var showDialogue = playerGameObject.GetComponent<PlayerActionsBehaviour>().showDialogue;
+                if (!_dialogueShown && showDialogue)
+                {
+                    FindObjectOfType<DialogueManager>().StartDialogue(dialogue, true);
+                    _dialogueShown = true;
+                }
             }
         }
     }

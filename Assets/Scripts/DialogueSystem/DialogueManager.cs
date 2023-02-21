@@ -45,6 +45,7 @@ public class DialogueManager : MonoBehaviour
             sentences.Enqueue(sentence);
         }
         DisplayNextSentence(showActionAtEndDialogue);
+
     }
 
     public void DisplayNextSentence(bool showActionAtEndDialogue)
@@ -52,6 +53,7 @@ public class DialogueManager : MonoBehaviour
         if (sentences.Count == 1)
         {
             actionButton.gameObject.SetActive(showActionAtEndDialogue);
+
         }
         else if (sentences.Count == 0)
         {
@@ -67,6 +69,7 @@ public class DialogueManager : MonoBehaviour
         }
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
+
     }
 
     IEnumerator TypeSentence(string sentence)
