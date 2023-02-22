@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Linq;
 using Behaviors;
 using UnityEngine;
@@ -42,7 +41,11 @@ namespace Behaviours
         
         public void OnRecoveringHearthPlayer()
         {
-            hearthParent.Cast<Transform>().Last(x => x.gameObject.activeInHierarchy == false).gameObject.SetActive(true);
+            hearthParent.Cast<Transform>().First(x => x.gameObject.activeInHierarchy == false).gameObject.SetActive(true);
+        }
+        public int GetActivePlayerHearths()
+        {
+            return hearthParent.Cast<Transform>().Count(x => x.gameObject.activeInHierarchy);
         }
 
         private void FixedUpdate()

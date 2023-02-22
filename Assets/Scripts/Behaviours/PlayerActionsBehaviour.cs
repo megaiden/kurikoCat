@@ -14,13 +14,14 @@ namespace Behaviors
         public float moveSpeed;
         public bool isPlayerHit, isGameOver;
         public bool showDialogue;
+        public bool clickNextDialogue;
         [SerializeField] 
         public Camera mainCamera;
         
         [SerializeField]
         private float BaseMovementSpeed;
         [SerializeField]
-        private Light _lightComponent;
+        public Light lightComponent;
         [SerializeField]
         private Light _lightInRobotComponent;
         [SerializeField]
@@ -45,6 +46,7 @@ namespace Behaviors
         private const string LOOKSIDES = "lookingSides";
         private const string CONFUSED = "confused";
         private const string CHESTHIT = "chestHit";
+        private const string CELEBRATE = "celebrate";
  
         private HealthSystem _healthSystemBodyComponent;
         private Vector2 _startPos;
@@ -81,7 +83,7 @@ namespace Behaviors
             GameManager.OnVictory -= TurnOnLights;
             GameManager.OnVictory += TurnOnLights;
             moveSpeed = BaseMovementSpeed;
-            _lightComponent.range = BaseRangeLight;
+            lightComponent.range = BaseRangeLight;
             _animator.speed = 1;
             EventStart();
         }
@@ -89,7 +91,7 @@ namespace Behaviors
         private void Restart()
         {
             _playerRigidBody.position = _startingPosition;
-            _lightComponent.gameObject.SetActive(true);
+            lightComponent.gameObject.SetActive(true);
             OnStopLightDamage?.Invoke(true);
         }
 
@@ -123,14 +125,27 @@ namespace Behaviors
         {
             yield return new WaitForSeconds( 3f );
             AudioManager.PlaySound(AudioManager.Sound.CatMeow5);
+            yield return new WaitForSeconds( 1f );
             ChangeAnimationState(LOOKSIDES);
             yield return new WaitForSeconds( 2f );
             ChangeAnimationState(CONFUSED);
             showDialogue = true;
-            yield return new WaitForSeconds( 4f );
+            yield return new WaitUntil( () => clickNextDialogue );
+            clickNextDialogue = false;
             ChangeAnimationState(CHESTHIT);
+            yield return new WaitUntil( () => clickNextDialogue );
+            clickNextDialogue = false;
+            ChangeAnimationState(CELEBRATE); 
+            yield return new WaitUntil( () => clickNextDialogue );
+            ChangeAnimationState(WALKDOWN); 
+            _animator.speed = 0;
         }
-        
+
+        public void ClickContinueDialogue()
+        {
+            clickNextDialogue = true;
+        }
+
         private IEnumerator WaitForAnimation() 
         {
             yield return StartCoroutine(EventThenWait());
@@ -157,7 +172,7 @@ namespace Behaviors
             if (Input.GetMouseButton(0))
             {
                 // Check if the mouse was clicked over a UI element
-               if (!EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
+               //if (!EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
                 {
                     var screenPosition = new Vector3(Input.mousePosition.x,Input.mousePosition.y, Input.mousePosition.z);
                     var worldPosition = mainCamera.ScreenToWorldPoint(screenPosition);
@@ -315,13 +330,13 @@ namespace Behaviors
 
         private void TurnOffLights()
         {
-            _lightComponent.gameObject.SetActive(false);
+            lightComponent.gameObject.SetActive(false);
             OnStopLightDamage?.Invoke(false);
         }
 
         private void TurnOnLights()
         {
-            _lightComponent.gameObject.SetActive(true);
+            lightComponent.gameObject.SetActive(true);
             OnStopLightDamage?.Invoke(true);
         }
 

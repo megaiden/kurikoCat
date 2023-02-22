@@ -1,6 +1,5 @@
-﻿
-using System;
-using System.Collections;
+﻿using System.Collections;
+using Behaviors;
 using UnityEngine;
 
 namespace Triggers
@@ -14,8 +13,10 @@ namespace Triggers
         {
             if (other.gameObject.CompareTag("Lamp"))
             {
+ 
                 if (!_waitingForRecharging)
-                {
+                { 
+                    other.transform.parent.GetComponent<PlayerActionsBehaviour>().lightComponent.gameObject.SetActive(true);
                     StartCoroutine(GiveEnergyBySecond(.3f));
                 }
             }
