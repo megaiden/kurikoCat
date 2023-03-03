@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour
     {
         AudioManager.Initialize();
         AudioManager.PlaySound(AudioManager.Sound.MainMenu, true);
+        AudioManager.PlaySound(AudioManager.Sound.MenuMusic, true);
     }
 
     public void PlayGame()

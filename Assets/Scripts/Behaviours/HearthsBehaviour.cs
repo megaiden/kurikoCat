@@ -14,7 +14,7 @@ namespace Behaviours
         [SerializeField] private Image blackOutImage;
         [SerializeField] private Image gameOverImage;
 
-        private bool _isGameOver,_imagesAppeared;
+        private bool _isGameOver, _imagesAppeared, _condition;
         private PlayerActionsBehaviour _playerActionsBehaviour;
 
         private void Start()
@@ -47,16 +47,23 @@ namespace Behaviours
         {
             return hearthParent.Cast<Transform>().Count(x => x.gameObject.activeInHierarchy);
         }
+        
+        public int GetInactivePlayerHearths()
+        {
+            return hearthParent.Cast<Transform>().Count(x => x.gameObject.activeInHierarchy == false);
+        }
 
         private void FixedUpdate()
         {
             if (_isGameOver)
-            {
+            {            
+                AudioManager.StopStageMusic();
                 if (FadeInImage(blackOutImage,1.5f))
                 {
                     if ( FadeInImage(gameOverImage, .45f))
                     {
-                        StartCoroutine(LoadMenu(3f));
+                        if(!_condition)
+                            StartCoroutine(LoadMenu(10f));
                     }
                 }
             }
@@ -64,8 +71,11 @@ namespace Behaviours
         
         private IEnumerator LoadMenu(float waitTime)
         {
+            _condition = true;
+            AudioManager.PlayStageMusic(AudioManager.Sound.GameOver, true, .9f);
             yield return new WaitForSeconds( waitTime );
             SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+
         }
 
         private bool FadeInImage(Image imageToShow, float timeToFadeIn)

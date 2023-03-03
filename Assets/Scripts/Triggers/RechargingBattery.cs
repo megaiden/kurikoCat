@@ -11,12 +11,12 @@ namespace Triggers
         
         private void OnTriggerStay(Collider other)
         {
-            if (other.gameObject.CompareTag("Lamp"))
+            if (other.gameObject.CompareTag("LampKuriko"))
             {
  
                 if (!_waitingForRecharging)
                 { 
-                    other.transform.parent.GetComponent<PlayerActionsBehaviour>().lightComponent.gameObject.SetActive(true);
+                    other.gameObject.SetActive(true);
                     StartCoroutine(GiveEnergyBySecond(.3f));
                 }
             }

@@ -61,21 +61,23 @@ namespace Behaviors
 
             var distance = Vector3.Distance(vectorPlayer, vectorEnemy);
             
-            if (distance <= 8)
+            if (distance <= 7)
             {
-                nav.SetDestination(target.position);
-                nav.speed = 2.5f;
+                nav.SetDestination(vectorPlayer);
+                nav.speed = 2f;
             }
             else if(_hasDestinationPatrolSet == false)
             {
                 nav.SetDestination(pointsOfPatrol[Random.Range(0,8)].transform.position);
-                nav.speed = 1.8f;
+                nav.speed = 1.5f;
                 _hasDestinationPatrolSet = true;
             }
             else if (nav.remainingDistance <= 1)
             {
                 _hasDestinationPatrolSet = false;
             }
+
+ 
         }
     
         private void StopLight(bool shouldStop)

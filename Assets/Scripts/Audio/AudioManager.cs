@@ -4,6 +4,9 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     private static GameObject _soundCreated = null;
+    private static GameObject _MusicStage = null;
+    private static AudioSource _audioSource = null;
+    private static bool _alreadyRemoved, _shouldPlayMusicStage;
     public enum Sound 
     {
         None = 0,
@@ -22,7 +25,11 @@ public class AudioManager : MonoBehaviour
         CatMeow3 = 17,
         CatMeow4 = 18,
         CatMeow5 = 19,
-        CatMeow6 = 20
+        CatMeow6 = 20,
+        MenuMusic = 21,
+        StageMusic = 22,
+        GameOver = 23,
+        EndingMusic = 24
     }
 
     private static Dictionary<Sound, float> soundTimerDictionary;
@@ -44,7 +51,16 @@ public class AudioManager : MonoBehaviour
                 _soundCreated = new GameObject("Sound");
             }
 
-            AudioSource audioSource = _soundCreated.AddComponent<AudioSource>();
+            AudioSource audioSource = null;
+            if (!_soundCreated.GetComponent<AudioSource>())
+            {
+                audioSource = _soundCreated.AddComponent<AudioSource>();    
+            }
+            else
+            {
+                audioSource = _soundCreated.GetComponent<AudioSource>();    
+            }
+            
             if (isLoop)
                 audioSource.loop = true;
             else
@@ -54,6 +70,47 @@ public class AudioManager : MonoBehaviour
             audioSource.volume = volume;
             audioSource.Play();
         }
+    }
+    
+    public static void PlayStageMusic(Sound sound, bool isLoop = false, float volume = 1.0f)
+    {
+
+        if (CanPlaySound(sound))
+        {
+            if (!_MusicStage)
+            {
+                _MusicStage = new GameObject("MusicStage");
+            }
+
+
+            if (!_MusicStage.GetComponent<AudioSource>())
+            {
+                _audioSource = _MusicStage.AddComponent<AudioSource>();    
+            }
+            else
+            {
+                _audioSource = _MusicStage.GetComponent<AudioSource>();    
+            }
+            
+            if (isLoop)
+                _audioSource.loop = true;
+            else
+                _audioSource.loop = false;
+
+            _audioSource.clip = GetAudioClip(sound);
+            _audioSource.volume = volume;
+            _audioSource.Play();
+        }
+    }
+    
+    public static void StopStageMusic()
+    {
+        if (!_alreadyRemoved)
+        {
+            Destroy(_MusicStage);
+            _alreadyRemoved = true;
+        }
+
     }
 
     public static void PlaySound(Sound sound, Vector3 position, bool isLoop = false)

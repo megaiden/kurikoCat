@@ -51,7 +51,7 @@ namespace Behaviors
         private HealthSystem _healthSystemBodyComponent;
         private Vector2 _startPos;
         private Vector2 _direction;
-        private bool _startEventEnded;
+        private bool _startEventEnded, _shouldStopMoving;
 
         /* coroutines*/
         private IEnumerator coroutine;
@@ -64,6 +64,7 @@ namespace Behaviors
         #region MonoBehaviour Functions from unity
         private void Start()
         {
+            AudioManager.PlayStageMusic(AudioManager.Sound.StageMusic, true);
             _healthSystemBodyComponent = GetComponent<HealthSystem>();
             _animator = GetComponent<Animator>();
             _player = ReInput.players.GetPlayer(playerId);
@@ -104,6 +105,13 @@ namespace Behaviors
             
             if (_moveVector != Vector3.zero)
             {
+                if (Input.GetTouch(0).phase == TouchPhase.Ended)
+                {
+                    _shouldStopMoving = true;
+                    return;
+                }
+
+                _shouldStopMoving = false;
                 transform.position = Vector3.Lerp( transform.position, _moveVector, Time.fixedDeltaTime*.8f);
             }
         }
@@ -172,7 +180,7 @@ namespace Behaviors
             if (Input.GetMouseButton(0))
             {
                 // Check if the mouse was clicked over a UI element
-               //if (!EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
+               if (!EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
                 {
                     var screenPosition = new Vector3(Input.mousePosition.x,Input.mousePosition.y, Input.mousePosition.z);
                     var worldPosition = mainCamera.ScreenToWorldPoint(screenPosition);
@@ -191,6 +199,11 @@ namespace Behaviors
                 _animator.speed = 1;
                 DirectionMovement(_moveVector);
                 AudioManager.PlaySound(AudioManager.Sound.PlayerMove);
+            }
+            
+            if (_shouldStopMoving && !isPlayerHit)
+            {
+                _animator.speed = 0;
             }
 
             /*var movement = new Vector3( _moveVector.x, 0, _moveVector.z).normalized;
@@ -305,13 +318,6 @@ namespace Behaviors
                     ChangeAnimationState(WALKLEFT);  
                 }
             }
-        }
-
-
-        private void ProcessMovementInput()
-        {
-            _playerRigidBody.MovePosition(
-                transform.position + _moveVector * (moveSpeed * Time.fixedDeltaTime));
         }
 
         #endregion

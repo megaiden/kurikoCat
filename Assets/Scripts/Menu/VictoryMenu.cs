@@ -8,8 +8,8 @@ public class VictoryMenu : MonoBehaviour
 
     private void Start()
     {
-        GameManager.OnVictory -= SetVictory;
-        GameManager.OnVictory += SetVictory;
+        GameManager.OnVictoryEnd -= SetVictory;
+        GameManager.OnVictoryEnd += SetVictory;
     }
 
     private void SetVictory()

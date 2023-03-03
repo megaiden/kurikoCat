@@ -10,9 +10,11 @@ public class GameManager : MonoBehaviour
     public VictoryMenu victoryMenu;
     public DialogueManager dialogueManager;
     public KeyPannel keyPannel;
+    public GameObject playerGameObject;
 
     public static Action OnRestart;
     public static Action OnVictory;
+    public static Action OnVictoryEnd;
     public static Action OnExit;
     public static Action OnHealthAtZero;
     public static GameManager instance
@@ -66,8 +68,15 @@ public class GameManager : MonoBehaviour
 
     public void Victory() 
     {
-        OnVictory?.Invoke();
-        Debug.Log("Game won!");
+        var catsFound = playerGameObject.GetComponent<PlayerActionsBehaviour>()._catsFoundCount;
+        if (catsFound >= 4)
+        {
+            AudioManager.PlayStageMusic(AudioManager.Sound.EndingMusic, true);
+            OnVictory?.Invoke();
+            OnVictoryEnd?.Invoke();
+            Debug.Log("Game won!");
+        }
+
     }
 
     public void ExitGame()

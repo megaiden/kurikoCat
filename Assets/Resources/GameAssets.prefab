@@ -77,3 +77,11 @@ MonoBehaviour:
     audioclip: {fileID: 8300000, guid: 89e80ddfa01203f4d8fb0aabbb12ed2a, type: 3}
   - sound: 20
     audioclip: {fileID: 8300000, guid: 193f74487af75c74089a87967a00cd4e, type: 3}
+  - sound: 21
+    audioclip: {fileID: 8300000, guid: 5341b1814be6c9441b7c3bf96ded7aad, type: 3}
+  - sound: 22
+    audioclip: {fileID: 8300000, guid: 787b4943010face4fa797f3ff40a104a, type: 3}
+  - sound: 23
+    audioclip: {fileID: 8300000, guid: 734d6d3e088a6664e9a2aa4ae64e041e, type: 3}
+  - sound: 24
+    audioclip: {fileID: 8300000, guid: 438db3b1afb164d4cb8d91431870f74a, type: 3}
